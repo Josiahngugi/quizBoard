@@ -54,17 +54,24 @@ $(document).ready(function(){
     }
     // Front end for posting answers
     average=marks.reduce((a,b)=>a+b,0)*5
-    $("#hresult").text("marks:"+average+"%")
-    $("#form").hide()
-    $("#result").show()
-    $("#back").click(function(){
-      $("#result").hide()
-      $("#page").show()
+      $("#hresult").text("marks:"+average+"%")
+        $("#form").hide()
+        $("#result").show()
+      $("#back").click(function(){
+          $("#result").hide()
+          window.location.reload();
+          $("#form").show()
+
+      // $("#form").show()
     })
+
   })
 
   $("#next").click(function(){
-  $("#page").hide()
-  $("#page1").show();
+    $("#page").hide()
+    $("#page1").show();
   });
+
+
+
 })
