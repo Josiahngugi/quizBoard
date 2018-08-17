@@ -59,6 +59,7 @@ $(document).ready(function(){
     $("#result").show()
     $("#back").click(function(){
       $("#form").show()
+      $("#result").hide()
     })
   })
 })
