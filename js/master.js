@@ -2,6 +2,7 @@ var answers=[]
 var quizs=[1,2,3,4,5]
 var marks=[]
 var average=0
+var output
 $(document).ready(function(){
   $("#buttonAns").click(function(quiz){
     for(i=0;i<quizs.length;i++){
@@ -52,6 +53,8 @@ $(document).ready(function(){
       marks.push(0)
     }
     average=marks.reduce((a,b)=>a+b,0)*5
-    alert("Your marks:"+ average +"%")
+    $("#hresult").text("marks:"+average+"%")
+    $("#form").hide()
+    $("#result").show()
   })
 })
