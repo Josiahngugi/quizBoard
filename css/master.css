@@ -1,6 +1,7 @@
 #result{
   display: none;
   color:blue;
+  margin-top: 17%;
 }
 #hresult{
   color: red;
@@ -15,5 +16,16 @@ h1{
   display: none;
 }
 #clearfix{
-  height: 8px;
+  height: 8%;
+}
+body{
+  background-image: url(../img/df.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#head-board{
+  margin-top: 17%;
+}
+#budy{
+  color: blue;
 }
