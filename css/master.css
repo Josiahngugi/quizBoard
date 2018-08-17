@@ -8,3 +8,9 @@
 h1{
   color: blue;
 }
+.label{
+  color: red;
+}
+#page1{
+  display: none;
+}

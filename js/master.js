@@ -1,3 +1,4 @@
+//this is a front-end part
 var answers=[]
 var quizs=[1,2,3,4,5]
 var marks=[]
@@ -15,7 +16,6 @@ $(document).ready(function(){
         answers.push(choice)
       }
     }
-
     // this is the business logic
     if(answers[0]===2){
       marks.push(3)
@@ -58,8 +58,13 @@ $(document).ready(function(){
     $("#form").hide()
     $("#result").show()
     $("#back").click(function(){
-      $("#form").show()
       $("#result").hide()
+      $("#page").show()
     })
   })
+
+  $("#next").click(function(){
+  $("#page").hide()
+  $("#page1").show();
+  });
 })
