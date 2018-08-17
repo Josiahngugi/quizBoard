@@ -52,9 +52,13 @@ $(document).ready(function(){
     else {
       marks.push(0)
     }
+    // Front end for posting answers
     average=marks.reduce((a,b)=>a+b,0)*5
     $("#hresult").text("marks:"+average+"%")
     $("#form").hide()
     $("#result").show()
+    $("#back").click(function(){
+      $("#form").show()
+    })
   })
 })

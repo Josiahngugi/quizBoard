@@ -1,3 +1,7 @@
 #result{
-  display: none
+  display: none;
+  color:blue;
+}
+#hresult{
+  color: red;
 }
