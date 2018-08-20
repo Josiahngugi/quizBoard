@@ -22,7 +22,7 @@ This a project that comprises of the questions with different marks and prompt t
         Input : What is Css ?
         Required:stylish language
         Output :true
-    The program should return "invalid".
+   The program awards 5 marks upon successfuly choose of right answer.
         Input: What is Javascript ?
         Required:Web programing language
         Output: true
@@ -49,8 +49,9 @@ Please ensure you have cloned it to the diretory you intended.
 
 * **Josiah Maina Ngugi** - *Initial work* - [alfartech](https://github.com/Josiahngugi)
 
-## License
-@ Alfar Technologies Limited 
+## License@
+@ MIT
+==>Alfar Technologies Limited 
 ## Acknowledgments
 
 * God
