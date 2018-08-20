@@ -10,22 +10,22 @@ This a project that comprises of the questions with different marks and prompt t
 
 ## Specs of the program
 
-    The program should return "Equilateral"
-        Input: all side of triangle are equal
-        Example:sides (5,5,5)
+    The program awards respectively of the questions that is 3marks.
+        Input: What is HTML ?
+        Required:Hyper text markup langauge
         Output : true
-    The program should return "Isosceles".
-        Input: Either of two triangles are equal
-        Example:sides (5,5,3)
+    The program awards 2 marks upon successfuly choose of right answer.
+        Input: What is a function ?
+        Required:Hyper text markup langauge
         Output: true
-    The program should return "Scalene".
-        Input : None of the sides is equal to the other
-        Example:sides (5,6,7)
+    The program awards 5 marks upon successfuly choose of right answer.
+        Input : What is Css ?
+        Required:stylish language
         Output :true
     The program should return "invalid".
-        Input: Sum of two sides is less than one of either sides
-        Example:sides (5,6,50)
-        Output Example: true
+        Input: What is Javascript ?
+        Required:Web programing language
+        Output: true
 ## Behaviours
 The project comprises of checkboxes with answers that a user is prompte to check.The questions are awarded various marks and it ensures that hthe user completes all the questions.Upon completion the submit button marks the whole test and awards average marks in percentage.The Next button takes you to the next level of the qustions for good viewing rather than squezing all the questions in one page.
 ### Prerequisites
