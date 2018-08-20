@@ -1,4 +1,4 @@
-# quizBoard
+# QuizBoard
 link to my live site
 This Project comprises questions with different marks that prompt user to fill them and then evaluates the whole test and awards average marks to user.
 <a href="https://josiahngugi.github.io/quizBoard/">go to  Site</a>
