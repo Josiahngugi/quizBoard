@@ -1,13 +1,12 @@
 # quizBoard
 link to my live site
-This Project prompts the user for sides of a triangle and determine a type of  atriangle it is
-<a href="https://josiahngugi.github.io/project2/">go to  Site</a>
+This Project comprises questions with different marks that prompt user to fill them and then evaluates the whole test and awards average marks to user.
+<a href="https://josiahngugi.github.io/quizBoard/">go to  Site</a>
 
 ## Getting Started
-The project has two buttons "start" and "Result".upon click the "start" button an alert prompts  to the user to fill 3 sides of the triangle.
-Then the program compares the sides inputed and determine the type of the triangle it is as follows to the specs
+The projects is comprised of the checkboxes with choices of the questions that a user is needed to check.It also comprises of three buttons ;"next, button that navigates on to the next page for more questions."submit button the the user handles in answers upon completions of the test.Lasly, a back button that take the user back for a new session if still want to give the test a trial. 
 ## Description
-This is a web based program that determine the type of the triangle submited by the user.Its is designed using HTML,CSS,Javascript. 
+This a project that comprises of the questions with different marks and prompt the user to answer through choosing of checkboxes.The program also determines the correct answers for user and awards average marks in percentage.
 
 ## Specs of the program
 
@@ -28,7 +27,7 @@ This is a web based program that determine the type of the triangle submited by 
         Example:sides (5,6,50)
         Output Example: true
 ## Behaviours
-The "start" button loads alerts that prompt the user to put all the three sides of the triangle.Then, after comparing on values, on clicking the "Result" button its give out the result as an alert too. 
+The project comprises of checkboxes with answers that a user is prompte to check.The questions are awarded various marks and it ensures that hthe user completes all the questions.Upon completion the submit button marks the whole test and awards average marks in percentage.The Next button takes you to the next level of the qustions for good viewing rather than squezing all the questions in one page.
 ### Prerequisites
 To have this project run from your end, the following are prerequisites tools you need
 ## Installing
